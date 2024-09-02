@@ -1,0 +1,12 @@
+.home_cont {
+    background-color: #9ab0b4c4;
+    height: 100vh;
+    flex-grow: 1;
+    width: auto;
+    margin: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+

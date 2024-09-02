@@ -1,0 +1,86 @@
+
+
+.header_main_cont {
+    background-color: #C4D8E5;
+    height: 70px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0;
+}
+
+.gradient_name::after {
+    content: '';
+    background: linear-gradient(to right, #860CF0, #D50EE6, #FA124C);
+   background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    animation: abomination1 500ms linear;
+    animation-fill-mode: forwards;
+}
+.icon_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:90px;
+}
+
+.image_cont {
+    background-color: #ffffff;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+}
+
+
+
+@keyframes abomination1 {
+    0% {
+      content: "A";
+    }
+    8% {
+      content: "As";
+    }
+    16% {
+      content: "Ash";
+    }
+    24% {
+      content: "Asho";
+    }
+    32% {
+      content: "Ashok";
+    }
+    40% {
+      content: "Ashok ";
+    }
+    48% {
+      content: "Ashok A";
+    }
+    56% {
+      content: "Ashok Am";
+    }
+    64% {
+      content: "Ashok Amm";
+    }
+    72% {
+      content: "Ashok Ammi";
+    }
+    80% {
+      content: "Ashok Ammin";
+    }
+    88% {
+      content: "Ashok Ammine";
+    }
+    96% {
+      content: "Ashok Amminen";
+    }
+    100% {
+      content: "Ashok Ammineni";
+    }
+
+}

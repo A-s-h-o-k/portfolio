@@ -5,7 +5,7 @@ function Header() {
     <header className="header_main_cont">
       <div>
         <h4 className="gradient_name"></h4>
-      </div>
+      </div> 
       <div className="icon_cont">
         <svg
           xmlns="http://www.w3.org/2000/svg"

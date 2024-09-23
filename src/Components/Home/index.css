@@ -1,12 +1,67 @@
 .home_cont {
-    background-color: #9ab0b4c4;
-    height: 100vh;
+    height:80vh;
     flex-grow: 1;
     width: auto;
     margin: 0;
     padding-left: 2%;
     padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    /* height: 100%; */
+    /* background-image: radial-gradient(#9ab0b4a4,#9ab0b4a4); */
+}
+
+.half-cont {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    /* align-items: center; */
+    
+}
+ 
+.name-cont {
+    font-size: 2rem;
+    margin-top: 3%;
+}
+
+.description-container {
+    background-color: tan;
+}
+
+.profile-image-container {
+    background-color: skyblue;
+
 }
 
 
+.hello {
+    font-size: 4rem;
+    color: rgb(55, 64, 67);
+    align-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+.namsthe-icon {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    font-size: 4rem;
+    color: #1b4d92;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.description {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}

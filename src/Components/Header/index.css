@@ -1,7 +1,9 @@
 
 
 .header_main_cont {
-    background-color: #C4D8E5;
+    /* background-color: #C4D8E5; */
+    /* background-color: #b9d4e6; */
+    background-color: #9fc5ddd8;
     height: 70px;
     width: auto;
     display: flex;
@@ -13,7 +15,7 @@
     margin: 0;
 }
 
-.gradient_name::after {
+.gradient_name {
     content: '';
     background: linear-gradient(to right, #860CF0, #D50EE6, #FA124C);
    background-clip: text;
@@ -83,4 +85,18 @@
       content: "Ashok Ammineni";
     }
 
+}
+
+.btn-cont {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+.link-p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2b1b92;
+  cursor: pointer;
 }
